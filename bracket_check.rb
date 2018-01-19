@@ -20,7 +20,7 @@ class BracketCheck
         return puts 'NG' unless brackets[stack.pop] == char
       end
     end
-    puts bracket_existance ? 'OK' : 'NG'
+    puts bracket_existance ? 'OK' : 'No parentheses'
   end
 
   private
